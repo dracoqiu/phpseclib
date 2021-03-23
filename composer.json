@@ -1,0 +1,21 @@
+{
+    "name": "draco/security",
+    "description": "PHP encryption and decryption method",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "draco",
+            "email": "1776658191@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "draco\\security\\": "src"
+        },
+        "files": []
+    },
+    "minimum-stability": "dev"
+}
