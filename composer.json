@@ -1,6 +1,6 @@
 {
-    "name": "draco/security",
-    "description": "PHP encryption and decryption method",
+    "name": "draco/phpseclib",
+    "description": "PHP Secure Communications Library",
     "license": "MIT",
     "authors": [
         {
@@ -9,11 +9,12 @@
         }
     ],
     "require": {
-        "php": ">=5.6"
+        "php": ">=7.1",
+        "ext-openssl": "*"
     },
     "autoload": {
         "psr-4": {
-            "draco\\security\\": "src"
+            "draco\\phpseclib\\": "src"
         },
         "files": []
     },
